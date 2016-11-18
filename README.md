@@ -1,5 +1,9 @@
 # Example x2go server using Vagrant and Puppet
 
+## Status
+
+**Work in progress - not working yet!**
+
 ## What?
 
 [X2go](http://wiki.x2go.org/doku.php) "*X2Go enables you to access a graphical desktop of a computer over a low bandwidth (or high bandwidth) connection*".
