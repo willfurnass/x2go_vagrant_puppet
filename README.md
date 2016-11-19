@@ -1,9 +1,5 @@
 # Example x2go server using Vagrant and Puppet
 
-## Status
-
-**Work in progress - not working yet!**
-
 ## What?
 
 [X2go](http://wiki.x2go.org/doku.php) "*X2Go enables you to access a graphical desktop of a computer over a low bandwidth (or high bandwidth) connection*".
@@ -24,7 +20,7 @@ Here we automagically create and configure a virtual machine that provides an X2
     * The downloading of the image and the Puppet configuration might take 15 mins or so.
 1. Start the x2go client and tell it to connect:
     * to the machine `localhost`
-    * to the port `65022`
-    * as the user `someuser`
-    * with password `!!`
+    * to the port `2222`
+    * as the user `vagrant`
+    * using RSA/DSA key `.vagrant/machines/default/virtualbox/private_key` (within your home directory)
 1. You should then see a desktop on the virtual machine!

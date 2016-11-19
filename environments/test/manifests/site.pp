@@ -1,3 +1,7 @@
+service { "network-manager":
+  ensure  => "running",
+}
+
 package { "epel-release":
   ensure => present,
 }
