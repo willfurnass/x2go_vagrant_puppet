@@ -10,7 +10,7 @@ Here we automagically create and configure a virtual machine that provides an X2
 
 1. Download and install [VirtualBox](https://www.virtualbox.org/wiki/Downloads), a virtual machine *hypervisor*.
 1. Download and install [Vagrant](https://www.vagrantup.com/downloads.html), a tool for automating the process of creating virtual machines.
-1. Download and install [Puppet](https://puppet.com/download-open-source-puppet), a tool for automatically configuring machines so they match a specification in a set of text files.
+1. Download and install [Puppet](https://puppet.com/download-open-source-puppet) (version 4.x), a tool for automatically configuring machines so they match a specification in a set of text files.
 1. Download and install the [X2go client](http://wiki.x2go.org/doku.php/download:start#the_client-side_of_x2go) (available for Windows, Linux and OS X)
 1. From within a local clone of this repository run `vagrant up`
     * This step 
